@@ -1,14 +1,26 @@
-import React from 'react'
-import Proptypes from  'Prop-types'
+
+import propTypes from  'prop-types'
+import React, { Component } from 'react';
 
 
-headline.Proptypes = {
-    imageSource: Proptypes.node.isRequired,
-    title: Proptypes.string.isRequired
+class headline extends Component{
+
+
+    render(){
+        return(
+            <div></div>
+        )
+    }
 }
 
-headline.defaultProps = {
-    children: undefined
+
+headline.propTypes = {
+    
+    title: propTypes.number.isRequired
+
+
 }
 
-export default headline;
+
+
+export default headline
