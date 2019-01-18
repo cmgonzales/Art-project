@@ -9,7 +9,7 @@ var backgroundimg = {
  backgroundImage: 'url(' + back + ')',
  backgroundRepeat: "no-repeat", 
  flex: "1",
- resizeMode: 'center'
+ maxheight: "fill-available"
  
 
  
@@ -33,7 +33,7 @@ class headline extends Component{
 headline.propTypes = {
     
     title: propTypes.string.isRequired,
-   
+
     
 
 
