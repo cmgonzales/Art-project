@@ -1,26 +1,30 @@
 
 import propTypes from  'prop-types'
 import React, { Component } from 'react';
-import S3 from '../img/paint.jpg'
+import '../style/head.css'
+import back from '../img/paint.jpg'
 
-var backstyle = {
-            backgroundImage: `url(${S3})`,
-            backgroundSize: `cover`
-          
-            
-   }
+
+var backgroundimg = {
+ backgroundImage: 'url(' + back + ')',
+ backgroundRepeat: "no-repeat", 
+ flex: "1",
+ resizeMode: 'center'
+ 
+
+ 
+}
+
 
 
 class headline extends Component{
 
-
     render(){
-   
         return(
-            <div style = {backstyle}>
+            <div className = "back" style = {backgroundimg}>
+            
 
-          
-            </div>
+          </div>
         )
     }
 }
@@ -28,7 +32,8 @@ class headline extends Component{
 
 headline.propTypes = {
     
-    title: propTypes.number.isRequired,
+    title: propTypes.string.isRequired,
+   
     
 
 

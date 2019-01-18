@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Nav from './nav'
-
 import Headline from './components/headline'
+
 
 import './App.css';
 
@@ -10,8 +10,10 @@ class App extends Component {
     return (
       <div>
         <Nav/>
-      <Headline className = "header"
-       title =  {12}
+      <Headline
+       title =  "this is a test"
+       
+
   
       />
     
