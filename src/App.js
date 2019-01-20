@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Nav from './nav'
-import Headline from './components/headline'
+
+import Portolio from './components/Portfolio'
 
 
 import './App.css';
@@ -9,18 +10,19 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Nav/>
-      <Headline
-       title =  "this is a test"
+        <Nav />
        
-
-  
-      />
-    
-       
+        <Portolio
+          information="San francisco crime API in React | Heroku deployment"
+        />
+        <Portolio
+          information="San francisco crime API in React | Heroku deployment"
+        />
       </div>
     );
   }
 }
 
 export default App;
+
+
