@@ -1,2 +1,1 @@
-landing page for art project
-using reactjs as a front end
+Front end project using ReactJS
